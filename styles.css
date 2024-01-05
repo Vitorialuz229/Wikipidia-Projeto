@@ -1,0 +1,92 @@
+body, html {
+          margin: 0;
+          padding: 0;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      
+      .logoWikipedia {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 10px;
+          background-color: #2c2c2c; /* ou a cor desejada */
+          color: #fff;
+      }
+      
+      .logo {
+          display: inline-block;
+      }
+      
+      .Titulo {
+          display: inline-block;    
+      }
+      
+      .Titulo h2 {
+          font-size: 2.0rem; 
+          margin: 0;
+      }
+      
+      .Titulo p {
+          font-size: 1.1rem; 
+          margin: 0;
+      }
+      
+      .divBusca {
+          display: flex;
+          margin-right: 1100px;     
+      }
+      
+      #busca {
+          padding: 15px;
+          font-size: 1rem; /* Ajuste o tamanho da fonte conforme necessário */
+          width: 500px; /* Ajuste a largura conforme necessário */
+      }
+      
+      button {
+          padding: 5px 10px;
+          font-size: 1rem; /* Ajuste o tamanho da fonte conforme necessário */
+          cursor: pointer;
+      }
+      
+      .bar {
+          background-color: #343435;
+          padding: 15px;
+          border-top: solid 1px #8d8d8d;
+          border-bottom: solid 1px #8d8d8d;
+      }
+      
+      .content {
+          max-width: 1440px;
+          margin: auto;
+          grid-gap: 3rem;
+          display: grid;
+          gap: 3rem;
+          grid-template-areas: "sidebar main anchors";
+          grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+          padding-left: 1rem;
+          padding-right: 1rem;
+      }
+      
+      .sidebar {
+          border-right: solid 1px #cdcdcd;
+      }
+      
+      .main {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+
+      }
+      .main h1 {
+          border-bottom: 2px solid #2c2c2c; /* Cor e espessura da linha */
+          padding-bottom: 5px; /* Espaçamento entre o texto e a linha (opcional) */
+      }
+      
+      .anchors {
+          border-left: solid 1px #cdcdcd;
+          padding-left: 15px;
+      }
+      
+      .footer {
+          min-height: 100px;
+          border-top: solid 1px #cdcdcd;
+      }
+      
