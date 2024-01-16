@@ -1,6 +1,7 @@
 # Módulo 3 - Trilha HTML
 
 **Título:** Recriando Wikipedia, com um layout melhor :)
+![Captura de Tela (42)](https://github.com/Vitorialuz229/Wikipidia-Projeto/assets/110250731/bfa6ea04-b234-45af-88f9-b1157dce66fc)
 
 ## Objetivo
 Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
